@@ -1,6 +1,6 @@
 package Programs;
 
-public class FindLargeArrayIndex {
+public class FindLargeArrayValue {
 
 	public static void main(String[] arg) {
 		
@@ -19,3 +19,4 @@ public class FindLargeArrayIndex {
 	}
 	
 }
+
