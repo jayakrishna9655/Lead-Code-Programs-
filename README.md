@@ -5,6 +5,6 @@
 3. Longest Common Prefix
 4. Remove Elements
 5. Search Insert Position 
-6.Plus One
-7.Valid Parentheses , using Stack(pop / push)
-8.Length of Last Word
+6. Plus One
+7. Valid Parentheses , using Stack(pop / push)
+8. Length of Last Word
