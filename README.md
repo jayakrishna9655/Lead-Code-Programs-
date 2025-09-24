@@ -8,3 +8,4 @@
 6. Plus One
 7. Valid Parentheses , using Stack(pop / push)
 8. Length of Last Word
+9. Palindrome Number
