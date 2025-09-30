@@ -10,3 +10,4 @@
 8. Length of Last Word
 9. Palindrome Number
 10. Find most frequent vowel and consonant
+11. Merge Sorted Array
