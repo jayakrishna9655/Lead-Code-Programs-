@@ -11,3 +11,4 @@
 9. Palindrome Number
 10. Find most frequent vowel and consonant
 11. Merge Sorted Array
+12. Reverse a Array
