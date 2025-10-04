@@ -12,3 +12,4 @@
 10. Find most frequent vowel and consonant
 11. Merge Sorted Array
 12. Reverse a Array
+13. Find the maximum and minimum element in an array.
