@@ -13,3 +13,4 @@
 11. Merge Sorted Array
 12. Reverse a Array
 13. Find the maximum and minimum element in an array.
+14. Write a program to search an element in an array (linear search).
