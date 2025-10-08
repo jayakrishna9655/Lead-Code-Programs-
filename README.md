@@ -15,6 +15,7 @@
 13. Find the maximum and minimum element in an array.
 14. Write a program to search an element in an array (linear search).
 15. Insert an element at a specific position in an array.
-16. Remove an element from an array at a specific position.	
+16. Remove an element from an array at a specific position.
+17. Sort an array using Bubble Sort (without built-in sort).
 
 
