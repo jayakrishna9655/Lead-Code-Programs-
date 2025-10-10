@@ -17,5 +17,6 @@
 15. Insert an element at a specific position in an array.
 16. Remove an element from an array at a specific position.
 17. Sort an array using Bubble Sort (without built-in sort).
+18. Rotate an array by k positions.
 
 
