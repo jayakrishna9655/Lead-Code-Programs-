@@ -19,5 +19,7 @@
 17. Sort an array using Bubble Sort (without built-in sort).
 18. Rotate an array by k positions.
 19. Check if a string is a palindrome.
+20. Reverse a string without using built-in reverse functions.
+
 
 
