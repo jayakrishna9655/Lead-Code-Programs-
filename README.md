@@ -20,6 +20,8 @@
 18. Rotate an array by k positions.
 19. Check if a string is a palindrome.
 20. Reverse a string without using built-in reverse functions.
+21. Count the frequency of each character in a string.
+
 
 
 
