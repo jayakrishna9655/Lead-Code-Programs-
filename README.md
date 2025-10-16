@@ -21,6 +21,7 @@
 19. Check if a string is a palindrome.
 20. Reverse a string without using built-in reverse functions.
 21. Count the frequency of each character in a string.
+22. Count the frequency of each character in a string.
 
 
 
