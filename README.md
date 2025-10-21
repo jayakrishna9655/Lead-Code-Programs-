@@ -22,6 +22,7 @@
 20. Reverse a string without using built-in reverse functions.
 21. Count the frequency of each character in a string.
 22. Count the frequency of each character in a string.
+23. Find the first non-repeated character in a string.
 
 
 
