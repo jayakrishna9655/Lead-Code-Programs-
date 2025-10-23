@@ -1,6 +1,5 @@
 package Programs;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class CheckIfTwoStringsAreAnagrams {
@@ -12,9 +11,7 @@ public class CheckIfTwoStringsAreAnagrams {
 		String str2="jiaa";
 		int len1=str1.length();
 		int len2=str2.length();
-		String rem="";
-		String ret="";
-		int lenr=0;
+
 		if(len1 != len2) {
 			 System.out.println("No, Not Anagrams");
 			return;
