@@ -24,6 +24,7 @@
 22. Count the frequency of each character in a string.
 23. Find the first non-repeated character in a string.
 24. Check if two strings are anagrams (contain the same characters in any order).
+25. Find the longest word in a sentence.
 
 
 
