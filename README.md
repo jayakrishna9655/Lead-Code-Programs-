@@ -26,6 +26,7 @@
 24. Check if two strings are anagrams (contain the same characters in any order).
 25. Find the longest word in a sentence.
 26. Count vowels and consonants in a string.
+27. Find the most frequent element in an array by using HashMap.
 
 
 
