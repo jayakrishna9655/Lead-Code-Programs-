@@ -28,6 +28,8 @@
 26. Count vowels and consonants in a string.
 27. Find the most frequent element in an array by using HashMap.
 28. Find all elements that appear more than once in an array by using HashMap.
+29. Check if two arrays have any common elements.
+
 
 
 
