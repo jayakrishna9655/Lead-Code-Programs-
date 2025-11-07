@@ -29,6 +29,10 @@
 27. Find the most frequent element in an array by using HashMap.
 28. Find all elements that appear more than once in an array by using HashMap.
 29. Check if two arrays have any common elements.
+30. Check if two arrays have any common elements using HashSet.
+31. Count word frequency in a sentence ("the cat and the dog" → the=2, cat=1, dog=1).
+32. Remove duplicates from an array using HashSet.
+
 
 
 
