@@ -32,6 +32,7 @@ public class CheckIfTwoArraysHaveAnyCommonElements {
         if(!found) {
             System.out.println("No common elements");
         }
+        
 
     }
 
