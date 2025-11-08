@@ -32,6 +32,9 @@
 30. Check if two arrays have any common elements using HashSet.
 31. Count word frequency in a sentence ("the cat and the dog" → the=2, cat=1, dog=1).
 32. Remove duplicates from an array using HashSet.
+33. Check if parentheses are valid ( ()[]{} → valid, (] → invalid).
+34. Implement a stack using an array (push, pop, peek).
+
 
 
 
