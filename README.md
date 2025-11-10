@@ -34,6 +34,7 @@
 32. Remove duplicates from an array using HashSet.
 33. Check if parentheses are valid ( ()[]{} → valid, (] → invalid).
 34. Implement a stack using an array (push, pop, peek).
+35. Implement a queue using an array (enqueue, dequeue).
 
 
 
