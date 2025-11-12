@@ -35,6 +35,8 @@
 33. Check if parentheses are valid ( ()[]{} → valid, (] → invalid).
 34. Implement a stack using an array (push, pop, peek).
 35. Implement a queue using an array (enqueue, dequeue).
+36. Find_the_Next_Greater_Element_for_each_element_in_an_array.
+(Example: [2,1,3] → output [3,3,-1]).
 
 
 
