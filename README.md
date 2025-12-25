@@ -37,6 +37,7 @@
 35. Implement a queue using an array (enqueue, dequeue).
 36. Find_the_Next_Greater_Element_for_each_element_in_an_array.
 (Example: [2,1,3] → output [3,3,-1]).
+37. Longest Substring Without Repeating Characters
 
 
 
