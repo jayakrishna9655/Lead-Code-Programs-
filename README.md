@@ -41,6 +41,8 @@
 38. Longest Repeating Character Replacement
 39. Merge Sorted Array
 40. Pascal's Triangle
+41. Intersection of Two Arrays
+
 
 
 
