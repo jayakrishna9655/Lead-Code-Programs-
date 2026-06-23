@@ -43,6 +43,7 @@
 40. Pascal's Triangle
 41. Intersection of Two Arrays
 42. Class and other class
+43. Valid Palindrome
 
 
 
