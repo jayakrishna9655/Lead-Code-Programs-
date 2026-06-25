@@ -44,6 +44,7 @@
 41. Intersection of Two Arrays
 42. Class and other class
 43. Valid Palindrome
+44. Remove duplicates from sorted list
 
 
 
