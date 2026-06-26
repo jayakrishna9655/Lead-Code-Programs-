@@ -45,6 +45,7 @@
 42. Class and other class
 43. Valid Palindrome
 44. Remove duplicates from sorted list
+45. Merge Two Sorted Lists
 
 
 
