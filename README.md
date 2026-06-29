@@ -47,6 +47,7 @@
 44. Remove duplicates from sorted list
 45. Merge Two Sorted Lists
 46. Remove All Adjacent Duplicates In String
+47. climb Stairs
 
 
 
