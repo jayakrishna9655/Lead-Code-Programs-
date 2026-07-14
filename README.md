@@ -54,7 +54,8 @@
 51. 4 Sum
 52. K Sum
 53. Valid Parentheses as lead code
-54. Generate Parentheses 
+54. Generate Parentheses
+55. two Sum
 
 
 
