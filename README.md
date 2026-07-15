@@ -56,6 +56,7 @@
 53. Valid Parentheses as lead code
 54. Generate Parentheses
 55. two Sum
+56. Best Time to Buy and Sell Stock
 
 
 
