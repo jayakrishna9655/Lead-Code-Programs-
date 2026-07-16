@@ -57,6 +57,7 @@
 54. Generate Parentheses
 55. two Sum
 56. Best Time to Buy and Sell Stock
+57. Maximum Subarray
 
 
 
