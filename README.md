@@ -58,6 +58,7 @@
 55. two Sum
 56. Best Time to Buy and Sell Stock
 57. Maximum Subarray
+58. Maximum Difference Between Increasing Elements
 
 
 
