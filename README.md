@@ -59,6 +59,7 @@
 56. Best Time to Buy and Sell Stock
 57. Maximum Subarray
 58. Maximum Difference Between Increasing Elements
+59. One To Ten Print Without Loop
 
 
 
