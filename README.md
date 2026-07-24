@@ -60,6 +60,7 @@
 57. Maximum Subarray
 58. Maximum Difference Between Increasing Elements
 59. One To Ten Print Without Loop
+60. Two Furthest Houses With Different Colors
 
 
 
