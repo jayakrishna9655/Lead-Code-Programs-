@@ -62,6 +62,7 @@
 59. One To Ten Print Without Loop
 60. Two Furthest Houses With Different Colors
 61. Replace Elements with Greatest Element on Right
+62. Maximum Score Of Spliced Array
 
 
 
