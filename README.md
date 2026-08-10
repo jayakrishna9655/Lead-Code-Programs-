@@ -63,6 +63,7 @@
 60. Two Furthest Houses With Different Colors
 61. Replace Elements with Greatest Element on Right
 62. Maximum Score Of Spliced Array
+63. Find the Index of the First Occurrence in a String
 
 
 
