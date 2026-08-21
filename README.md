@@ -64,6 +64,7 @@
 61. Replace Elements with Greatest Element on Right
 62. Maximum Score Of Spliced Array
 63. Find the Index of the First Occurrence in a String
+64. Valid Anagram
 
 
 
