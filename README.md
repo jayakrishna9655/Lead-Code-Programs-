@@ -65,6 +65,7 @@
 62. Maximum Score Of Spliced Array
 63. Find the Index of the First Occurrence in a String
 64. Valid Anagram
+65. Single Number
 
 
 
