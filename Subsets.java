@@ -1,5 +1,6 @@
 package Programs;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -7,17 +8,27 @@ import java.util.List;
 class SolutionSubsets {
     public List<List<Integer>> subsets(int[] nums) {
     	
-    	HashSet<List<List<Integer>>> set = new HashSet<List<List<Integer>>>();
-    	
-    	for(int i=0;i<nums.length;i++) {
-    		if(! set.add(Arrays.asList(nums[i])) {
-    			
-    		}
-    	}
-    	
-    	
-		return null;
+    	List<List<Integer>> list = new ArrayList<List<Integer>>();
+    	bruteforce(nums,list,0,new ArrayList<Integer>());
+    	//System.out.println(list.toString());
+		return list;
     }
+
+	private void bruteforce(int[] nums, List<List<Integer>> list, int start, ArrayList<Integer> arrayList) {
+		
+		list.add(new ArrayList<>(arrayList));
+		
+		for(int i=start;i<nums.length;i++) {
+			
+			arrayList.add(nums[i]);
+			System.out.println(arrayList);
+			bruteforce(nums, list, i+1, arrayList);
+			
+			arrayList.remove(arrayList.size()-1);
+			
+		}
+		
+	}
 }
 
 public class Subsets {
@@ -27,7 +38,7 @@ public class Subsets {
 		int arr[]= {1,2,3};
 		
 		SolutionSubsets sol = new SolutionSubsets();
-		sol.subsets(arr);
+		System.out.println(sol.subsets(arr));
 		
 	}
 	
