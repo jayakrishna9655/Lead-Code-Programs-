@@ -71,6 +71,7 @@
 68. DFS Same tree
 69. BFS Same tree
 70. Symmetric Tree
+71. Shuffle The Array
 
 
 
