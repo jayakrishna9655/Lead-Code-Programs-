@@ -74,6 +74,7 @@
 71. Shuffle The Array
 72. max repeated number
 73. find missing number and duplicate
+74. How Many Numbers Are Smaller Than the Current Number
 
 
 
