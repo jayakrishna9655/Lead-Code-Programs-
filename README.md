@@ -73,6 +73,7 @@
 70. Symmetric Tree
 71. Shuffle The Array
 72. max repeated number
+73. find missing number and duplicate
 
 
 
