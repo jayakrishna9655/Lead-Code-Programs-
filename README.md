@@ -76,6 +76,7 @@
 73. find missing number and duplicate
 74. How Many Numbers Are Smaller Than the Current Number
 75. Find All Numbers Disappeared in an Array
+76. Build an Array With Stack Operations
 
 
 
