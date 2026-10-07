@@ -5,47 +5,52 @@ import java.util.Stack;
 class SolutiondecodeString {
     public String decodeString(String s) {
     	
-//    	Stack<String> stack = new Stack<String>();
-//    	
-//    	String tem = "";
-//    	for(int i=0;i<s.length();i++) {
-//    		
-//    		char ch =s.charAt(i);
-//    		
-//    		if(ch !=']') {
-//    			stack.push(String.valueOf(ch));
-//    		}
-//    		else {
-//    			 tem = "";  //"3[a]2[bc]"
-//    			while(!stack.isEmpty()) {
-//    				 
-//    	    		if (stack.peek().equals("[")) {
-//    	    			
-//    	    			stack.pop();
-//    	    			StringBuilder numStr = new StringBuilder();
-//    	    			while (!stack.isEmpty() && Character.isDigit(stack.peek().charAt(0))) {
-//    	    			    numStr.insert(0, stack.pop());
-//    	    			}
-//    	    			int n = Integer.parseInt(numStr.toString());
-//    	    			String org = tem;  //cc
-//    	    			for(int j=1;j<n;j++) {
-//    	    				tem +=org; //cc cc
-//    	    			}
-//    	    			stack.push(tem);
-//    	    			break;
-//    	    			
-//    	    		}
-//    	    		else {
-//    	    			tem =stack.pop() + tem; //a cccc
-//    	    		}
-//    	    		
-//    	    	}
-//    		}
-//    		
-//    	}
-//    	
-//    	System.out.println(tem);
-		
+    	Stack<String> stack = new Stack<String>();
+    	
+    	String tem = "";
+    	for(int i=0;i<s.length();i++) {
+    		
+    		char ch =s.charAt(i);
+    		
+    		if(ch !=']') {
+    			stack.push(String.valueOf(ch));
+    		}
+    		else {
+    			 tem = "";  //"3[a]2[bc]"
+    			while(!stack.isEmpty()) {
+    				 
+    	    		if (stack.peek().equals("[")) {
+    	    			
+    	    			stack.pop();
+    	    			StringBuilder numStr = new StringBuilder();
+    	    			while (!stack.isEmpty() && Character.isDigit(stack.peek().charAt(0))) {
+    	    			    numStr.insert(0, stack.pop());
+    	    			}
+    	    			int n = Integer.parseInt(numStr.toString());
+    	    			String org = tem;  //cc
+    	    			for(int j=1;j<n;j++) {
+    	    				tem +=org; //cc cc
+    	    			}
+    	    			stack.push(tem);
+    	    			break;
+    	    			
+    	    		}
+    	    		else {
+    	    			tem =stack.pop() + tem; //a cccc
+    	    		}
+    	    		
+    	    	}
+    		}
+    		
+    	}
+    	String result = "";
+
+    	while (!stack.isEmpty()) {
+    	    result = stack.pop() + result;
+    	}
+
+    	System.out.println(result);
+    	return result;
     	
     	
     	
@@ -94,49 +99,55 @@ class SolutiondecodeString {
 //    	System.out.println("stackInt "+stackInt.toString());
 //    	System.out.println(stack.peek());
 //    	System.out.println(stackInt.peek());
-    	Stack<Integer> countStack = new Stack<>();
-        Stack<String> stringStack = new Stack<>();
-        
-        String currentString = "";
-        int currentNum = 0;
-
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-
-            if (Character.isDigit(ch)) {
-                // Handles multi-digit numbers like 10, 100
-                currentNum = currentNum * 10 + (ch - '0');
-            } 
-            else if (ch == '[') {
-                // Save state to stack before going deeper
-                countStack.push(currentNum);
-                stringStack.push(currentString);
-                
-                // Reset trackers for the content inside brackets
-                currentNum = 0;
-                currentString = "";
-            } 
-            else if (ch == ']') {
-                // Pop the multiplier and the previous string
-                int k = countStack.pop();
-                String prevString = stringStack.pop();
-
-                // Repeat the decoded segment
-                String repeated = "";
-                for (int j = 0; j < k; j++) {
-                    repeated = repeated + currentString;
-                }
-
-                // Append to what was saved prior to '['
-                currentString = prevString + repeated;
-            } 
-            else {
-                // Regular characters
-                currentString = currentString + ch;
-            }
-        }
-
-        return currentString;
+    	
+    	
+    	
+    	
+    	
+    	
+//    	Stack<Integer> countStack = new Stack<>();
+//        Stack<String> stringStack = new Stack<>();
+//        
+//        String currentString = "";
+//        int currentNum = 0;
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            char ch = s.charAt(i);
+//
+//            if (Character.isDigit(ch)) {
+//                // Handles multi-digit numbers like 10, 100
+//                currentNum = currentNum * 10 + (ch - '0');
+//            } 
+//            else if (ch == '[') {
+//                // Save state to stack before going deeper
+//                countStack.push(currentNum);
+//                stringStack.push(currentString);
+//                
+//                // Reset trackers for the content inside brackets
+//                currentNum = 0;
+//                currentString = "";
+//            } 
+//            else if (ch == ']') {
+//                // Pop the multiplier and the previous string
+//                int k = countStack.pop();
+//                String prevString = stringStack.pop();
+//
+//                // Repeat the decoded segment
+//                String repeated = "";
+//                for (int j = 0; j < k; j++) {
+//                    repeated = repeated + currentString;
+//                }
+//
+//                // Append to what was saved prior to '['
+//                currentString = prevString + repeated;
+//            } 
+//            else {
+//                // Regular characters
+//                currentString = currentString + ch;
+//            }
+//        }
+//
+//        return currentString;
     }
 }
 
