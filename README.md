@@ -82,6 +82,7 @@
 79. Decode String rechecked
 80. Replace All Digits with Characters
 81. Reverse String
+82. Contains Duplicate 
 
 
 
