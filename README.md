@@ -86,6 +86,7 @@
 83. Valid Anagram
 84. group Anagrams
 85. Longest Consecutive Sequence
+86. Valid palindrome
 
 
 
